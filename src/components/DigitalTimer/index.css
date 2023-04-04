@@ -1,0 +1,150 @@
+.backgroundContainer {
+  background-image: linear-gradient(to bottom, #ffffff, #cffcf1);
+  height: 100vh;
+  font-family: 'Roboto';
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.bothContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  .bothContainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .beforeImage {
+    height: auto;
+    max-width: 35vw;
+  }
+  .topContainer {
+    height: 100vh;
+    width: 50vw;
+  }
+  .bottomContainer {
+    height: 100vh;
+    width: 50vw;
+  }
+}
+.headingTimer {
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+.topContainer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.beforeImage {
+  align-self: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  width: 75vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 450px;
+}
+.timer {
+  padding-top: 10px;
+  margin-top: -1px;
+  font-size: 18px;
+  color: #00d9f5;
+  font-weight: 700;
+}
+.paused {
+  color: black;
+  margin-top: -10px;
+  font-size: 10px;
+}
+
+.bottomContainer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.startRest {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.startContainer {
+  display: flex;
+  font-size: 25px;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.restContainer {
+  display: flex;
+  font-size: 25px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.timeControlContainer {
+  display: flex;
+  margin-top: -20px;
+  justify-content: space-between;
+  width: 160px;
+}
+.playPauseButton {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+}
+.playPauseImage {
+  width: 30px;
+  margin-right: 5px;
+}
+.timmerInput {
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  color: black;
+  font-size: 22px;
+  font-weight: 800;
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.addReduceButton {
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 30px;
+  border: none;
+}
+/*
+Hex: #ffffff
+Hex: #cffcf1
+Hex: #1e293b
+Hex: #0f172a
+Hex: #defafe
+Hex: #00d9f5
+
+*/
